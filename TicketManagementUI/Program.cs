@@ -1,8 +1,8 @@
 using Domain.Entities;
+using Infrastructure.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using TicketManagementUI.Components;
-using TicketManagementUI.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
